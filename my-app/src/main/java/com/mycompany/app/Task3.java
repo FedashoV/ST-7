@@ -46,6 +46,7 @@ public class Task3
 
             // запись в файл
             PrintWriter fileWriter = new PrintWriter(new FileWriter(filePath));
+            fileWriter.println("Работа студента группы 3823Б1ПР2 - Цыплакова Кирилла");
             fileWriter.println("Прогноз погоды: ");
             fileWriter.println("Часовой пояс (TimeZone): " + tsyplakov_obj.get("timezone"));
             fileWriter.println("Текущая погода на время " + tsyplakov_currentTime + ":");
